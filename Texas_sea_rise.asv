@@ -13,8 +13,26 @@ rise_mm = 10 * year_diff;
 % convert millimeters to feet
 rise = rise_mm / 304.8;
 % if less than 1 ft convert to inches
+inches = false;
 if rise < 1
     rise = rise * 12;
+    inches = true;
 end
+% create the map
+geolimits([25 31],[-97 -94])
+geobasemap streets
 
+% labelLat = 28;
+% labelLon = 94;
+% textm(labelLat, labelLon, 'rise');
+
+%this kind of works. you just have to click on the map and the text goes
+%where you click
+if inches == true
+    gtextm("The average sea level rise is " string(rise) + " inches")
+
+else
+    gtextm(string(rise) + " feet")
+end
+    
 

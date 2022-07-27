@@ -34,13 +34,14 @@ geobasemap('ustopo')
 geolimits([26.06 26.08], [-97.21 -97.11])
 
 % adds title
-title("South Padre Island")
+title("South Padre Island", "FontSize", 24)
 
 legend('boxoff')
+legend('FontSize', 13)
 
 % changes legend title based on sea level
 if inches == true
-    title(legend,"The average rise in sea level " + string(rise) + " inches")
+    title(legend,"The average rise in sea level is " + string(rise) + " inches")
 else
-    title(legend,"The average rise in sea level " + string(rise) + " feet")
+    title(legend,"The average rise in sea level is " + string(rise) + " feet")
 end

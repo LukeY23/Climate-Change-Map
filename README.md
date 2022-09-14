@@ -14,4 +14,4 @@ Our final version was the Global Sea Level Map which was based off of an example
 
 ## Different approach on the project
 
-Our group spun off of the original project prompt and focused more on a presentation to potential clients of our theoretical company. This included us creating unique and effective solutions to combat rising sea levels, with our main solution aiming to create wetlands. As such, our function was not our top priority and was mainly used to showcase an estimat in the rise of sea levels when presenting.
+Our group spun off of the original project prompt and focused more on a presentation to potential clients of our theoretical company. This included us creating unique and effective solutions to combat rising sea levels, with our main solution aiming to create wetlands. As such, our function was not our top priority and was mainly used to showcase an estimate in the rise of sea levels when presenting.
